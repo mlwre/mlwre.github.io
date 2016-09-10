@@ -1,12 +1,15 @@
 ---
 layout: page
-title: About
+title: About Us
 ---
 
-Hello.
+> Hello friend, we are a non-profit organisation and vetted community focused on malware and threat analysis, comprised by members of the Spanish malware research community.
 
-The main purpose of this theme is to be as simple as it could be, so you can focus on writing your stuffs. This is your About page. You may describe about yourself here; who you are, what are you currently doing, share some of your projects, your social links and how people can contact you, etc.
+As part of our activities we run services, among them, a malware zoo ( https://zoo.mlw.re ) for members of the malware research community, that analyses, classifies and reports on malware samples from a number of public and non-public feeds and self made crawlers, and also allows free downloading of the analysed samples.
 
-**Just write thing that matters..**
+As one of our side projects, we have just set up this blog instance to start publishing indicators and reports extracted from our feed.
+
 
 Enjoy!
+
+The Malware Hunter
