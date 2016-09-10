@@ -13,4 +13,4 @@ As part of our activities we run services, among them, a malware zoo ( https://z
 
 Enjoy!
 
-** The Malware Hunter **
+The Malware Hunter
