@@ -3,7 +3,7 @@ layout: page
 title: About Us
 ---
 
-**Hello friend, we are a non-profit organisation and vetted community focused on malware and threat analysis, comprised by members of the Spanish malware research community.
+** Hello friend, we are a non-profit organisation and vetted community focused on malware and threat analysis, comprised by members of the Spanish malware research community.
 
 We have just set up this blog instance to start publishing indicators and reports extracted from our feed.
 
@@ -13,4 +13,4 @@ As part of our activities we run services, among them, a malware zoo ( https://z
 
 Enjoy!
 
-**The Malware Hunter**
+** The Malware Hunter **
