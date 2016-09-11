@@ -336,4 +336,10 @@ Go is a language very useful for its easy syntax, and very comfortable as it has
 
 We dare to say that the time invested in writing this malware couldn't have taken more than a boring Sunday, making the monetization of this one quite outstanding.
 
+|TYPE | HASH|  File| Password|
+|:---------:|------------------:|-----------------------:|
+|MD5 | 86ac68e5b09d1c4b157193bb6cb34007 | [Download](https://github.com/mlwre/mlwre.github.io/blob/master/downloads/lady/86ac68e5b09d1c4b157193bb6cb34007.zip?raw=true) | infected |
+
+
+
 The Malware Hunter.
