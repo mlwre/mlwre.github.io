@@ -160,7 +160,7 @@ JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM *vm, char *options, void *reserved)
 
 That function receives an instance of the vm and the options passed to it, which we can work with later on:
 
-```
+```c++
 {
   option = options;
   jvmtiEnv *jvmti;
