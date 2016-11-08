@@ -139,7 +139,7 @@ So, to state our purpose: we are basically instrumenting java code with the goal
 
 First we need to include some libs:
 
-```c++
+```
 #include "jvmti.h"
 #include "jni.h"
 #include <string>
@@ -153,11 +153,11 @@ using namespace std;
 ```
 
 Then when the agent is loaded in the JVM it will cal this function:
-```c++
+```
 JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM *vm, char *options, void *reserved)
 ```
 That function receives an instance of the vm and the options passed to it, which we can work with later on:
-```c++
+```
 {
   option = options;
   jvmtiEnv *jvmti;
@@ -203,7 +203,7 @@ That function receives an instance of the vm and the options passed to it, which
 ```
 
 Then it will wait for different callbacks and execute specific code when the events occur:
-```c++
+```
 void JNICALL MethodExitCallback(jvmtiEnv *jvmti_env, JNIEnv* jni_env, jthread thread, jmethodID method, jboolean was_popped_by_exception, jvalue return_value)
 ```
 
