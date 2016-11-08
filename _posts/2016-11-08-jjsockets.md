@@ -138,6 +138,7 @@ So, to state our purpose: we are basically instrumenting java code with the goal
 **Disclaimer:** You know, the usual disclaimer about not reinventing the wheel, this is Frankencode from different places, do not look at it too long, it gives eye cancer, introduces vulnerabilities, has not been tested on animals, etc. Which reminds me, I would like offer a goat in sacrifice to the original nameless authors of the bits and pieces of the frankencode below. 
 
 First we need to include some libs:
+
 ```c++
 #include "jvmti.h"
 #include "jni.h"
@@ -150,6 +151,7 @@ First we need to include some libs:
 #include "windows.h"
 using namespace std;
 ```
+
 Then when the agent is loaded in the JVM it will cal this function:
 ```c++
 JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM *vm, char *options, void *reserved)
