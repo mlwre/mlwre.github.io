@@ -149,7 +149,7 @@ First we need to include some libs:
 #include <sstream>
 #include <ctime>
 #include "windows.h"
-using namespace std
+using namespace std;
 ```
 
 Then when the agent is loaded in the JVM it will cal this function:
