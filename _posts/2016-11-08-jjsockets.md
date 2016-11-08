@@ -149,14 +149,17 @@ First we need to include some libs:
 #include <sstream>
 #include <ctime>
 #include "windows.h"
-using namespace std;
+using namespace std
 ```
 
 Then when the agent is loaded in the JVM it will cal this function:
+
 ```
 JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM *vm, char *options, void *reserved)
 ```
+
 That function receives an instance of the vm and the options passed to it, which we can work with later on:
+
 ```
 {
   option = options;
@@ -203,6 +206,7 @@ That function receives an instance of the vm and the options passed to it, which
 ```
 
 Then it will wait for different callbacks and execute specific code when the events occur:
+
 ```
 void JNICALL MethodExitCallback(jvmtiEnv *jvmti_env, JNIEnv* jni_env, jthread thread, jmethodID method, jboolean was_popped_by_exception, jvalue return_value)
 ```
