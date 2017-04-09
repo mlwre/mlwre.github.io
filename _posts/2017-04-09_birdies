@@ -1,0 +1,33 @@
+---
+title: Hey, psh... cyberguys! our favourite bird eat *nix malware!
+updated: 2017-04-09 00:00
+---
+# Hey, psh... cyberguys! our favourite bird e'[at] *nix malware! 
+
+We pleasured to anounce you our small pet project, [__Linux sandbox__](https://linux.huntingmalware.com). It's based on Cuckoo v2, but with a bit of our fixes and love, it still in beta, but pretty stable.
+
+<p align="center">
+  <img src="https://media.giphy.com/media/IX89WTEnYgvM4/giphy.gif" alt="Like a sir!"/>
+</p>
+
+At the moment it supports:
+- Sparc
+- Mips
+- Mipsel
+- Arm
+- PowerPC
+- x32 - support behavior grabbing
+- x64
+
+Not supported yet:
+- SuperH
+- Motorola
+
+All not supported files as Windows, *MacOsX*, *Android*, *bsd*, etc will be just silently rejected It supports now autofile recon to pickup the correct **VM** for sample.
+
+We giving access to __API__ to researchers and malware analysts, so feel free to ping us for api access. 
+
+Bear in mind, this is a non profit project, so expect some intermitent issues while we´re testing our environment. 
+Shouldn't be too much, but possible. Of course we´re glad to receive suggestions, flame, rants
+
+The Malware Hunter!
