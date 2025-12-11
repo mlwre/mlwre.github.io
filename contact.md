@@ -3,8 +3,6 @@ layout: page
 title: Contact
 ---
 
-# Contact
-
 Want to get in touch with us? Here's how:
 
 ## General inquiries

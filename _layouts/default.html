@@ -29,6 +29,24 @@ layout: compress
 
 		{% include footer.html %}
 
+		<script>
+		(function() {
+			function updateHexYear() {
+				var hexYearEl = document.getElementById('hex-year');
+				if (hexYearEl) {
+					var year = new Date().getFullYear();
+					var hexYear = year.toString(16).toLowerCase();
+					hexYearEl.textContent = '0x' + hexYear;
+				}
+			}
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', updateHexYear);
+			} else {
+				updateHexYear();
+			}
+		})();
+		</script>
+
 	</body>
 
 </html>

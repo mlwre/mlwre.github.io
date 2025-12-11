@@ -3,9 +3,7 @@ layout: page
 title: About MLWRE
 ---
 
-# About MLWRE
-
-We are a **non-profit association** established under Organic Law 1/2002, regulating the Right of Association. We've been working on threat analysis and malware research for over a decade.
+We are a **non-profit association** established under Organic Law 1/2002 of Spain, regulating the Right of Association. We've been working on threat analysis and malware research for over a decade.
 
 ## Our mission
 
