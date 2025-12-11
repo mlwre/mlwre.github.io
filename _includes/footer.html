@@ -1,6 +1,13 @@
 <footer class="site-footer">
 	<div class="footer-content">
-		<p>&copy; 0x{{ 'now' | date: "%Y" | to_hex }} {{ site.title }}. A non-profit association.</p>
+		<p>&copy; <span id="hex-year">0x{{ 'now' | date: "%Y" }}</span> {{ site.title }}. A non-profit association.</p>
+		<script>
+			(function() {
+				var year = new Date().getFullYear();
+				var hexYear = year.toString(16).toLowerCase();
+				document.getElementById('hex-year').textContent = '0x' + hexYear;
+			})();
+		</script>
 		<p>
 			<a href="{{ site.baseurl }}/">Home</a> |
 			<a href="{{ site.baseurl }}/about">About</a> |
