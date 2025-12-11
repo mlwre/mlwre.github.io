@@ -1,0 +1,9 @@
+<nav class="main-nav">
+	<ul>
+		<li><a href="{{ site.baseurl }}/" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Home</a></li>
+		<li><a href="{{ site.baseurl }}/about" {% if page.url == '/about' %}class="active"{% endif %}>About</a></li>
+		<li><a href="{{ site.baseurl }}/blog" {% if page.url == '/blog' %}class="active"{% endif %}>Blog</a></li>
+		<li><a href="{{ site.baseurl }}/contact" {% if page.url == '/contact' %}class="active"{% endif %}>Contact</a></li>
+	</ul>
+</nav>
+

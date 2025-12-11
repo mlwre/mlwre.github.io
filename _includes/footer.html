@@ -1,0 +1,17 @@
+<footer class="site-footer">
+	<div class="footer-content">
+		<p>&copy; 0x{{ 'now' | date: "%Y" | to_hex }} {{ site.title }}. A non-profit association.</p>
+		<p>
+			<a href="{{ site.baseurl }}/">Home</a> |
+			<a href="{{ site.baseurl }}/about">About</a> |
+			<a href="{{ site.baseurl }}/blog">Blog</a> |
+			<a href="{{ site.baseurl }}/contact">Contact</a>
+		</p>
+		{% if site.twitter_username %}
+		<p>
+			<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener" class="twitter-link">𝕏</a>
+		</p>
+		{% endif %}
+	</div>
+</footer>
+

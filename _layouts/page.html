@@ -12,6 +12,8 @@ layout: default
 
 </article>
 
+{% unless page.url == '/' or page.url == '/index.html' %}
 <div class="back">
-	<a href="{{site.baseurl}}/">Back</a>
+	<a href="{{site.baseurl}}/">Home</a>
 </div>
+{% endunless %}

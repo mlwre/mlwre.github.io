@@ -12,6 +12,7 @@ layout: compress
 	<body>
 
 		{% include header.html %}
+		{% include nav.html %}
 
 		<main>
 			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
@@ -25,6 +26,8 @@ layout: compress
 			{% endif %}
 
 		{% endif %}
+
+		{% include footer.html %}
 
 	</body>
 
