@@ -35,7 +35,7 @@ If you're a company, organization, or just someone who wants to help, we're open
 - **Cloud resources** - Infrastructure that helps us scale our work
 - **Hardware** - Equipment that enables our research
 
-We're always up for a conversation about sponsorships and partnerships. No corporate speak, no buzzwords—just real talk about how we can work together to make the Internet a safer place.
+We're always up for a conversation about sponsorships and partnerships.
 
 ---
 

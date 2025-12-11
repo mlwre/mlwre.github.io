@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to MLWRE
+title: Welcome to mlw.re
 ---
 
 We are a **non-profit association** dedicated to researching and analyzing Internet threats. We're a global community of more than **100 researchers** who've been working together for over a decade.
